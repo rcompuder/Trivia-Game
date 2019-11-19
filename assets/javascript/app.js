@@ -82,7 +82,7 @@ $(document).ready(function (event) {
 
                 }
                 else{
-                    $(".results").text("You're Wrong! The correct answer is: " + answers[number]);
+                    $(".results").text("Incorrect! The correct answer is: " + answers[number]);
                     losses ++; 
                     clearInterval(intervalId); 
                     number ++ ;
